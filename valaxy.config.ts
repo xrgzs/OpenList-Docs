@@ -10,6 +10,8 @@ import { localIconLoader } from 'vitepress-plugin-group-icons'
 const COMMIT_TAG = process.env.COMMIT_TAG || 'dev'
 const COMMIT_SHA = process.env.CF_PAGES_COMMIT_SHA || process.env.COMMIT_REF
 const BUILT_DATE = new Date().toISOString()
+// Must have SITE_URL or build fails
+const SITE_URL = process.env.SITE_URL || 'https://example.com'
 const VITE_BASE = process.env.VITE_BASE || '/'
 
 const safelist = ['i-ri-home-line', 'i-ri-github-line']
@@ -17,7 +19,7 @@ const safelist = ['i-ri-home-line', 'i-ri-github-line']
 export default defineValaxyConfig<PressTheme.Config>({
   siteConfig: {
     title: 'The OpenList Docs',
-    url: 'https://github.com/OpenListTeam',
+    url: SITE_URL,
     description: 'Docs site for OpenList',
 
     comment: {
@@ -141,6 +143,12 @@ export default defineValaxyConfig<PressTheme.Config>({
       docker: 'vscode-icons:file-type-docker',
       nginx: 'vscode-icons:file-type-nginx',
       toml: 'vscode-icons:file-type-toml',
+    },
+  },
+
+  modules: {
+    rss: {
+      enable: false,
     },
   },
 })

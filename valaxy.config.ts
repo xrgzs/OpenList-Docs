@@ -9,7 +9,8 @@ import { localIconLoader } from 'vitepress-plugin-group-icons'
 
 const COMMIT_TAG = process.env.COMMIT_TAG || 'dev'
 const COMMIT_SHA = process.env.CF_PAGES_COMMIT_SHA || process.env.COMMIT_REF
-const COMMIT_DATE = process.env.COMMIT_DATE || '1970-01-01T00:00:00Z'
+const BUILT_DATE = new Date().toISOString()
+const VITE_BASE = process.env.VITE_BASE || '/'
 
 const safelist = ['i-ri-home-line', 'i-ri-github-line']
 
@@ -46,11 +47,11 @@ export default defineValaxyConfig<PressTheme.Config>({
   },
 
   addons: [
-    addonAlgolia({
-      appId: '7MV77DWO4A',
-      apiKey: '9b9438ca112ab7c044c985c2daa1190b',
-      indexName: 'valaxysite',
-    }),
+    // addonAlgolia({
+    //   appId: '7MV77DWO4A',
+    //   apiKey: '9b9438ca112ab7c044c985c2daa1190b',
+    //   indexName: 'valaxysite',
+    // }),
     addonComponents(),
     addonGitLog({
       contributor: {
@@ -93,14 +94,14 @@ export default defineValaxyConfig<PressTheme.Config>({
     },
 
     footer: {
-      message: `Build <a href="https://github.com/OpenListTeam/OpenList-Docs/commit/${COMMIT_SHA}">${COMMIT_SHA?.slice(0, 8)}</a> commited at ${COMMIT_DATE}`,
+      message: `Commit <a href="https://github.com/OpenListTeam/OpenList-Docs/commit/${COMMIT_SHA}">${COMMIT_SHA?.slice(0, 8)}</a> built at ${BUILT_DATE}`,
       copyright:
         'AGPL-3.0 Licensed |  © 2022-present <a href="https://github.com/OpenListTeam" target="_blank">The OpenList Projects Contributors</a>',
     },
   },
 
   vite: {
-    base: '/',
+    base: VITE_BASE,
   },
   unocss: {
     safelist,

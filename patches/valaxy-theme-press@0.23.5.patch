@@ -1,0 +1,21 @@
+diff --git a/components/PressCategory.vue b/components/PressCategory.vue
+index 6c998c4ef964a5bb05ba687e942efd3ce3077241..d925cb8ea75877d38b8f62aaeb378ca8fa93adb7 100644
+--- a/components/PressCategory.vue
++++ b/components/PressCategory.vue
+@@ -63,7 +63,15 @@ function getTitle(post: Post | any) {
+         </RouterLink>
+       </template>
+ 
+-      <PressCategory v-else :category="categoryItem" :display-category="displayCategory" :collapsable="collapsable" />
++      <PressCategory 
++        v-else 
++        :category="categoryItem" 
++        :display-category="displayCategory" 
++        :collapsable="(() => {
++          const allChildrenAreNotCategoryList = Array.from(categoryItem.children.values()).every(child => !isCategoryList(child))
++          return allChildrenAreNotCategoryList ? categoryItem.total > 8 : false
++        })()" 
++      />
+     </li>
+   </ul>
+ </template>

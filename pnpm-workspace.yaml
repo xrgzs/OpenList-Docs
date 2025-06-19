@@ -1,0 +1,3 @@
+patchedDependencies:
+  valaxy@0.23.5: patches/valaxy@0.23.5.patch
+  valaxy-theme-press@0.23.5: patches/valaxy-theme-press@0.23.5.patch

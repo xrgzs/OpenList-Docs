@@ -1,0 +1,152 @@
+{
+  "pages/index.md": {
+    "contributors": [],
+    "changeLog": [],
+    "path": "pages/index.md"
+  },
+  "pages/configuration/_example.md": {
+    "contributors": [],
+    "changeLog": [],
+    "path": "pages/configuration/_example.md"
+  },
+  "pages/guide/index.md": {
+    "contributors": [],
+    "changeLog": [],
+    "path": "pages/guide/index.md"
+  },
+  "pages/guide/drivers/_example.md": {
+    "contributors": [],
+    "changeLog": [],
+    "path": "pages/guide/drivers/_example.md"
+  },
+  "pages/guide/drivers/local.md": {
+    "contributors": [],
+    "changeLog": [],
+    "path": "pages/guide/drivers/local.md"
+  },
+  "pages/guide/advanced/_example.md": {
+    "contributors": [],
+    "changeLog": [],
+    "path": "pages/guide/advanced/_example.md"
+  },
+  "pages/guide/installation/containerized.md": {
+    "contributors": [],
+    "changeLog": [],
+    "path": "pages/guide/installation/containerized.md"
+  },
+  "pages/guide/installation/script.md": {
+    "contributors": [],
+    "changeLog": [],
+    "path": "pages/guide/installation/script.md"
+  },
+  "pages/guide/installation/source.md": {
+    "contributors": [],
+    "changeLog": [],
+    "path": "pages/guide/installation/source.md"
+  },
+  "pages/faq/_example.md": {
+    "contributors": [],
+    "changeLog": [],
+    "path": "pages/faq/_example.md"
+  },
+  "pages/migration/alist-v3.md": {
+    "contributors": [],
+    "changeLog": [],
+    "path": "pages/migration/alist-v3.md"
+  },
+  "pages/developer/api/_example.md": {
+    "contributors": [],
+    "changeLog": [],
+    "path": "pages/developer/api/_example.md"
+  },
+  "pages/guide/configuration.md": {
+    "contributors": [],
+    "changeLog": [],
+    "path": "pages/guide/configuration.md"
+  },
+  "pages/guide/drivers/index.md": {
+    "contributors": [],
+    "changeLog": [],
+    "path": "pages/guide/drivers/index.md"
+  },
+  "pages/guide/drivers/local copy.md": {
+    "contributors": [],
+    "changeLog": [],
+    "path": "pages/guide/drivers/local copy.md"
+  },
+  "pages/guide/drivers/local copy 2.md": {
+    "contributors": [],
+    "changeLog": [],
+    "path": "pages/guide/drivers/local copy 2.md"
+  },
+  "pages/guide/drivers/local copy 3.md": {
+    "contributors": [],
+    "changeLog": [],
+    "path": "pages/guide/drivers/local copy 3.md"
+  },
+  "pages/guide/drivers/local copy 4.md": {
+    "contributors": [],
+    "changeLog": [],
+    "path": "pages/guide/drivers/local copy 4.md"
+  },
+  "pages/guide/drivers/local copy 5.md": {
+    "contributors": [],
+    "changeLog": [],
+    "path": "pages/guide/drivers/local copy 5.md"
+  },
+  "pages/guide/drivers/local copy 6.md": {
+    "contributors": [],
+    "changeLog": [],
+    "path": "pages/guide/drivers/local copy 6.md"
+  },
+  "pages/guide/drivers/local copy 7.md": {
+    "contributors": [],
+    "changeLog": [],
+    "path": "pages/guide/drivers/local copy 7.md"
+  },
+  "pages/guide/drivers/local copy 8.md": {
+    "contributors": [],
+    "changeLog": [],
+    "path": "pages/guide/drivers/local copy 8.md"
+  },
+  "pages/guide/drivers/local copy 9.md": {
+    "contributors": [],
+    "changeLog": [],
+    "path": "pages/guide/drivers/local copy 9.md"
+  },
+  "pages/configuration/index.md": {
+    "contributors": [],
+    "changeLog": [],
+    "path": "pages/configuration/index.md"
+  },
+  "pages/faq/index.md": {
+    "contributors": [],
+    "changeLog": [],
+    "path": "pages/faq/index.md"
+  },
+  "pages/guide/advanced/index.md": {
+    "contributors": [],
+    "changeLog": [],
+    "path": "pages/guide/advanced/index.md"
+  },
+  "pages/guide/installation/index.md": {
+    "contributors": [],
+    "changeLog": [],
+    "path": "pages/guide/installation/index.md"
+  },
+  "pages/developer/api/index.md": {
+    "contributors": [],
+    "changeLog": [],
+    "path": "pages/developer/api/index.md"
+  },
+  "pages/developer/index.md": {
+    "contributors": [],
+    "changeLog": [],
+    "path": "pages/developer/index.md"
+  },
+  "pages/migration/index.md": {
+    "contributors": [],
+    "changeLog": [],
+    "path": "pages/migration/index.md"
+  }
+}

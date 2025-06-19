@@ -1,0 +1,42 @@
+# ! Navigation bar search entry
+search:
+  tip: search
+
+# ! Navigation menu
+nav:
+  guide: Guide
+  config: Config
+
+# ! Category titles (setting `title` in index.md's frontmatter will not work)
+category:
+  # User Guide
+  guide: 用户指南
+  installation: 安装
+  drivers: 添加存储
+  # FAQ
+  faq: FAQ
+  # Migration
+  migration: 迁移
+  # Developer Guide
+  developer: Developer Guide
+  api: API Documentation
+  # Changelog
+  changelog: Changelog
+
+# ! Index page (layout: hero)
+hero:
+  banner: 🗂️ 一个支持多种存储的文件列表程序，使用 Gin 和 SolidJS
+  actions:
+    get-started: 快速上手
+    view-github: 查看 GitHub
+
+# ! components/WorkInProgress.vue
+wip: 编写中，敬请期待
+
+tooltip:
+  # Reserved and used by valaxy-theme-press
+  edit_this_page: 在 GitHub 上编辑此页
+
+post:
+  # Reserved and used by valaxy-theme-press
+  contributors: 贡献者

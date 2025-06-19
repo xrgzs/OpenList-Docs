@@ -1,0 +1,140 @@
+import type { PressTheme } from 'valaxy-theme-press'
+import process from 'node:process'
+import { defineValaxyConfig } from 'valaxy'
+import { addonAlgolia } from 'valaxy-addon-algolia'
+import { addonComponents } from 'valaxy-addon-components'
+import { addonGitLog } from 'valaxy-addon-git-log'
+
+import { localIconLoader } from 'vitepress-plugin-group-icons'
+
+const COMMIT_TAG = process.env.COMMIT_TAG || "dev"
+const COMMIT_SHA = process.env.CF_PAGES_COMMIT_SHA || process.env.COMMIT_REF
+const COMMIT_DATE = process.env.COMMIT_DATE || "1970-01-01T00:00:00Z"
+
+const safelist = [
+  'i-ri-home-line',
+  'i-ri-github-line',
+]
+
+export default defineValaxyConfig<PressTheme.Config>({
+  siteConfig: {
+    title: 'The OpenList Docs',
+    url: 'https://github.com/OpenListTeam',
+    description: 'Docs site for OpenList',
+
+    search: {
+      enable: false,
+      type: 'algolia',
+    },
+    encrypt: {
+      enable: false,
+    },
+
+    mediumZoom: {
+      enable: true,
+    },
+
+    statistics: {
+      enable: true
+    }
+  },
+
+  addons: [
+    addonAlgolia({
+      appId: '7MV77DWO4A',
+      apiKey: '9b9438ca112ab7c044c985c2daa1190b',
+      indexName: 'valaxysite',
+    }),
+    addonComponents(),
+    addonGitLog({
+      contributor: {
+        strategy: 'prebuilt',
+      },
+      repositoryUrl: 'https://github.com/OpenListTeam/OpenList-Docs',
+    }),
+  ],
+
+  theme: 'press',
+  themeConfig: {
+    logo: '/logo.svg',
+    sidebar: [
+      'guide',
+      'installation',
+      'drivers',
+      'advanced',
+      'developer',
+      'api',
+      'configuration',
+      'faq',
+      'migration',
+    ],
+    socialLinks: [
+      { icon: 'i-ri-github-line', link: 'https://github.com/OpenListTeam/OpenList' },
+    ],
+    nav: [
+      {
+        text: COMMIT_TAG,
+        items: [
+          {
+            text: 'Release Notes',
+            link: 'https://github.com/OpenListTeam/OpenList/releases',
+          },
+        ],
+      },
+    ],
+
+    // Why default to be `https://github.com/YunYouJun/valaxy/edit/main/docs/:path`?
+    editLink: {
+      pattern: 'https://github.com/OpenListTeam/OpenList-Docs/edit/docs/:path',
+    },
+
+    footer: {
+      message: `Build <a href="https://github.com/OpenListTeam/OpenList-Docs/commit/${COMMIT_SHA}">${COMMIT_SHA?.slice(0, 8)}</a> commited at ${COMMIT_DATE}`,
+      copyright:
+        'AGPL-3.0 Licensed |  © 2022-present <a href="https://github.com/OpenListTeam" target="_blank">The OpenList Projects Contributors</a>',
+    },
+  },
+
+  vite: {
+    base: '/',
+  },
+  unocss: {
+    safelist,
+  },
+
+  markdown: {
+    blocks: {
+      tip: {
+        icon: 'i-carbon-thumbs-up',
+      },
+      warning: {
+        icon: 'i-carbon-warning-alt',
+      },
+      danger: {
+        icon: 'i-carbon-warning',
+      },
+      info: {
+        icon: 'i-carbon-information',
+      },
+    },
+
+    codeTransformers: [
+      // We use `[!!code` in demo to prevent transformation, here we revert it back.
+      {
+        postprocess(code) {
+          return code.replace(/\[!!code/g, '[!code')
+        },
+      },
+    ],
+    // theme: 'material-theme-palenight',
+  },
+
+  groupIcons: {
+    customIcon: {
+      valaxy: localIconLoader(import.meta.url, './public/favicon.svg'),
+      docker: 'vscode-icons:file-type-docker',
+      nginx: 'vscode-icons:file-type-nginx',
+      toml: 'vscode-icons:file-type-toml',
+    },
+  },
+})

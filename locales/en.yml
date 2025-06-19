@@ -1,0 +1,42 @@
+# ! Navigation bar search entry
+search:
+  tip: search
+
+# ! Navigation menu
+nav:
+  guide: Guide
+  config: Config
+
+# ! Category titles (setting `title` in index.md's frontmatter will not work)
+category:
+  # User Guide
+  guide: User Guide
+  installation: Installation
+  drivers: Storage Setup
+  # FAQ
+  faq: FAQ
+  # Migration
+  migration: Migration
+  # Developer Guide
+  developer: Developer Guide
+  api: API Documentation
+  # Changelog
+  changelog: Changelog
+
+# ! Index page (layout: hero)
+hero:
+  banner: 🗂️ A file list program that supports multiple storage, powered by Gin and SolidJS
+  actions:
+    get-started: Get Started
+    view-github: View Github
+
+# ! components/WorkInProgress.vue
+wip: WIP, please stay tuned
+
+tooltip:
+  # Reserved and used by valaxy-theme-press
+  edit_this_page: Edit this page on GitHub
+
+post:
+  # Reserved and used by valaxy-theme-press
+  contributors: Contributors

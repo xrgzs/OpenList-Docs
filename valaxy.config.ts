@@ -36,6 +36,10 @@ export default defineValaxyConfig<PressTheme.Config>({
 
     statistics: {
       enable: true
+    },
+
+    license: {
+      enabled: false,
     }
   },
 

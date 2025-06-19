@@ -22,10 +22,15 @@ export default defineValaxyConfig<PressTheme.Config>({
     url: 'https://github.com/OpenListTeam',
     description: 'Docs site for OpenList',
 
+    comment: {
+      enable: true,
+    },
+
     search: {
       enable: false,
       type: 'algolia',
     },
+
     encrypt: {
       enable: false,
     },

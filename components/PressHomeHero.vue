@@ -5,18 +5,24 @@
 -->
 
 <script lang="ts" setup>
-import { useFrontmatter } from 'valaxy'
-import { useI18n } from 'vue-i18n'
+  import { useFrontmatter } from 'valaxy'
+  import { useI18n } from 'vue-i18n'
 
-const fm = useFrontmatter()
+  const fm = useFrontmatter()
 
-const { t } = useI18n()
+  const { t } = useI18n()
 </script>
 
 <template>
   <div text="center" m="md:t-24 t-10 md:t-20" flex="~ col" justify="center" items="center">
     <OpenListLogo mb="2" />
-    <h1 my="10" text="4xl md:8xl" font="black" class="gradient-text from-teal-200 to-sky-400" bg="gradient-to-r">
+    <h1
+      my="10"
+      text="4xl md:8xl"
+      font="black"
+      class="gradient-text from-teal-200 to-sky-400"
+      bg="gradient-to-r"
+    >
       {{ fm.hero.name }}
     </h1>
   </div>
@@ -33,14 +39,9 @@ const { t } = useI18n()
         :link="action.link"
         :text="action.text"
       />
-      <PressButton
-        v-else
-        :theme="action.theme"
-        :link="action.link"
-        :text="action.text"
-      />
+      <PressButton v-else :theme="action.theme" :link="action.link" :text="action.text" />
     </template>
   </div>
 
-  <br>
+  <br />
 </template>

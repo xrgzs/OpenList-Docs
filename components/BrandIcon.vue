@@ -1,8 +1,8 @@
 <script setup lang="ts">
-defineProps<{
-  icon: string
-  link: string
-}>()
+  defineProps<{
+    icon: string
+    link: string
+  }>()
 </script>
 
 <template>

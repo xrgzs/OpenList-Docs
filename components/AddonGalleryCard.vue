@@ -1,37 +1,45 @@
 <script lang="ts" setup>
-import type { ValaxyAddon } from './AddonGallery.vue'
+  import type { ValaxyAddon } from './AddonGallery.vue'
 
-defineProps<{
-  addon: ValaxyAddon
-}>()
+  defineProps<{
+    addon: ValaxyAddon
+  }>()
 
-const emit = defineEmits(['tagClick'])
+  const emit = defineEmits(['tagClick'])
 
-function handleTagClick(tag: string) {
-  emit('tagClick', tag)
-}
+  function handleTagClick(tag: string) {
+    emit('tagClick', tag)
+  }
 </script>
 
 <template>
   <div
     class="bg-purple-50/50 dark:bg-$va-c-bg-alt justify-center items-start gap-2 transition"
-    border rounded-xl p-4
+    border
+    rounded-xl
+    p-4
     dark="border-dark-200"
     hover="bg-purple-100 dark:bg-$va-c-bg shadow-lg"
     flex="~ col"
   >
-    <a class="text-purple-600! dark:text-purple-300! decoration-none!" mr-2 :href="addon.repo" target="_blank">
+    <a
+      class="text-purple-600! dark:text-purple-300! decoration-none!"
+      mr-2
+      :href="addon.repo"
+      target="_blank"
+    >
       <h3 flex="~" justify-center items-center class="my-2!" font="light">
         <div class="text-black dark:text-white" text-xl mr-1 i-ri-github-line />
         <span>{{ addon.name }}</span>
       </h3>
     </a>
-    <div
-      flex="~"
-      class="text-sm items-center gap-1"
-      op="70"
-    >
-      <a class="text-red-600!" :href="`https://npmjs.com/package/${addon.name}`" target="_blank" alt="NPM Package">
+    <div flex="~" class="text-sm items-center gap-1" op="70">
+      <a
+        class="text-red-600!"
+        :href="`https://npmjs.com/package/${addon.name}`"
+        target="_blank"
+        alt="NPM Package"
+      >
         <div i-ri-npmjs-line />
       </a>
       <template v-if="addon.author">
@@ -41,7 +49,8 @@ function handleTagClick(tag: string) {
             class="text-dark-200 dark:text-white"
             :href="`https://github.com/${author}`"
             target="_blank"
-          >{{ author }}</a>
+            >{{ author }}</a
+          >
           <span v-if="index < addon.author.length - 1">, </span>
         </span>
       </template>
@@ -63,7 +72,8 @@ function handleTagClick(tag: string) {
       </span>
       <div flex="~" class="gap-2">
         <span
-          v-for="tag, j in addon.tags" :key="j"
+          v-for="(tag, j) in addon.tags"
+          :key="j"
           class="break-all cursor-pointer text-xs"
           @click="handleTagClick(tag)"
         >

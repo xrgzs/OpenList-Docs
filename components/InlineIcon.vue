@@ -1,8 +1,8 @@
 <script setup lang="ts">
-defineProps<{
-  icon: string
-  link: string
-}>()
+  defineProps<{
+    icon: string
+    link: string
+  }>()
 </script>
 
 <template>
@@ -10,12 +10,12 @@ defineProps<{
 </template>
 
 <style scoped>
-.inline-icon {
-  display: inline-block;
-  /* width: 1em;
+  .inline-icon {
+    display: inline-block;
+    /* width: 1em;
   height: 1em; */
-  font-size: inherit;
-  /* line-height: 1; */
-  vertical-align: text-top;
-}
+    font-size: inherit;
+    /* line-height: 1; */
+    vertical-align: text-top;
+  }
 </style>

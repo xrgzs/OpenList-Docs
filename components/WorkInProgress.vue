@@ -5,16 +5,14 @@
 -->
 
 <script lang="ts" setup>
-import { useI18n } from 'vue-i18n'
-const { t } = useI18n()
+  import { useI18n } from 'vue-i18n'
+  const { t } = useI18n()
 </script>
 
 <template>
   <div flex="~ col" class="justify-center items-center" gap="6" m="auto y-8" font="black">
     <h3>
-      <div class="work-in-progress-icon text-4xl fly-animation">
-        🧪
-      </div>
+      <div class="work-in-progress-icon text-4xl fly-animation">🧪</div>
     </h3>
 
     <span text="2xl">{{ t('wip') }}</span>

@@ -1,2 +1,1 @@
-export const sites = [
-]
+export const sites = []

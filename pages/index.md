@@ -5,7 +5,7 @@ title: OpenList
 
 hero:
   name: OpenList
-  text: 
+  text:
   image:
     src: /valaxy-logo.png
     alt: Valaxy Logo
@@ -17,10 +17,8 @@ hero:
     - theme: alt
       text: hero.actions.view-github
       link: https://github.com/OpenListTeam/OpenList
-
 # todo, rewrite with valaxy
 # features:
-
 ---
 
 <!-- The INDEX page -->

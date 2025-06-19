@@ -7,14 +7,11 @@ import { addonGitLog } from 'valaxy-addon-git-log'
 
 import { localIconLoader } from 'vitepress-plugin-group-icons'
 
-const COMMIT_TAG = process.env.COMMIT_TAG || "dev"
+const COMMIT_TAG = process.env.COMMIT_TAG || 'dev'
 const COMMIT_SHA = process.env.CF_PAGES_COMMIT_SHA || process.env.COMMIT_REF
-const COMMIT_DATE = process.env.COMMIT_DATE || "1970-01-01T00:00:00Z"
+const COMMIT_DATE = process.env.COMMIT_DATE || '1970-01-01T00:00:00Z'
 
-const safelist = [
-  'i-ri-home-line',
-  'i-ri-github-line',
-]
+const safelist = ['i-ri-home-line', 'i-ri-github-line']
 
 export default defineValaxyConfig<PressTheme.Config>({
   siteConfig: {
@@ -40,12 +37,12 @@ export default defineValaxyConfig<PressTheme.Config>({
     },
 
     statistics: {
-      enable: true
+      enable: true,
     },
 
     license: {
       enabled: false,
-    }
+    },
   },
 
   addons: [
@@ -77,9 +74,7 @@ export default defineValaxyConfig<PressTheme.Config>({
       'faq',
       'migration',
     ],
-    socialLinks: [
-      { icon: 'i-ri-github-line', link: 'https://github.com/OpenListTeam/OpenList' },
-    ],
+    socialLinks: [{ icon: 'i-ri-github-line', link: 'https://github.com/OpenListTeam/OpenList' }],
     nav: [
       {
         text: COMMIT_TAG,

@@ -28,5 +28,8 @@ public/feed.json
 # valaxy rss
 public/atom.xml
 
+# Git log prebuilt
+public/git-log.json
+
 # rollup-plugin-visualizer
 stats.html

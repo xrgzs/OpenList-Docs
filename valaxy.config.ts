@@ -8,8 +8,8 @@ import { addonGitLog } from 'valaxy-addon-git-log'
 import { localIconLoader } from 'vitepress-plugin-group-icons'
 
 const COMMIT_TAG = process.env.COMMIT_TAG || 'dev'
-const COMMIT_SHA = process.env.CF_PAGES_COMMIT_SHA || process.env.COMMIT_REF
-const BUILT_DATE = new Date().toISOString()
+const DOCS_COMMIT_SHA = process.env.CF_PAGES_COMMIT_SHA || process.env.DOCS_COMMIT_SHA
+const DOCS_BUILT_DATE = new Date().toISOString()
 // Must have SITE_URL or build fails
 const SITE_URL = process.env.SITE_URL || 'https://example.com'
 const VITE_BASE = process.env.VITE_BASE || '/'
@@ -93,11 +93,11 @@ export default defineValaxyConfig<PressTheme.Config>({
 
     // Why default to be `https://github.com/YunYouJun/valaxy/edit/main/docs/:path`?
     editLink: {
-      pattern: 'https://github.com/OpenListTeam/OpenList-Docs/edit/docs/:path',
+      pattern: 'https://github.com/OpenListTeam/OpenList-Docs/edit/main/:path',
     },
 
     footer: {
-      message: `Commit <a href="https://github.com/OpenListTeam/OpenList-Docs/commit/${COMMIT_SHA}">${COMMIT_SHA?.slice(0, 8)}</a> built at ${BUILT_DATE}`,
+      message: `Commit <a href="https://github.com/OpenListTeam/OpenList-Docs/commit/${DOCS_COMMIT_SHA}">${DOCS_COMMIT_SHA?.slice(0, 8)}</a> built at ${DOCS_BUILT_DATE}`,
       copyright:
         'AGPL-3.0 Licensed |  © 2022-present <a href="https://github.com/OpenListTeam" target="_blank">The OpenList Projects Contributors</a>',
     },

@@ -1,1 +1,5 @@
-<!-- Left empty, or fail to build -->
+---
+title: FAQ
+---
+
+<WorkInProgress />

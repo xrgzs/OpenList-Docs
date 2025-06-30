@@ -1,6 +1,6 @@
 ---
-title: Catalog
-title_zh-CN: 目录
+title: Configuration
+title_zh-CN: 配置
 ---
 
 ---

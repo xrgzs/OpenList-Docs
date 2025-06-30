@@ -8,7 +8,11 @@ nav:
   guide: User Guide
   faq: FAQ
   pricing: Pricing
-  community: Community
+  community:
+    title: Community
+    discussions: Github Discussions
+    telegram: Telegram
+    telegram_channel: Telegram Channel
   github: GitHub
 
 # ! Category titles (setting `title` in index.md's frontmatter will not work)

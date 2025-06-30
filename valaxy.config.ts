@@ -87,15 +87,19 @@ export default defineValaxyConfig<PressTheme.Config>({
         link: '/pricing',
       },
       {
-        text: 'nav.community',
+        text: 'nav.community.title',
         items: [
           {
-            text: 'Discussions',
+            text: 'nav.community.discussions',
             link: 'https://github.com/OpenListTeam/OpenList/discussions',
           },
           {
-            text: 'Telegram',
-            link: 'https://t.me/+BYuDkV2f-ds2ODE1',
+            text: 'nav.community.telegram',
+            link: 'https://t.me/OpenListTeam',
+          },
+          {
+            text: 'nav.community.telegram_channel',
+            link: 'https://t.me/OpenListOfficial',
           },
         ],
       },

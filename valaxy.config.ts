@@ -18,7 +18,7 @@ const safelist = ['i-ri-home-line', 'i-ri-github-line']
 
 export default defineValaxyConfig<PressTheme.Config>({
   siteConfig: {
-    title: 'The OpenList Docs',
+    title: 'OpenList Docs',
     url: SITE_URL,
     description: 'Docs site for OpenList',
 
@@ -81,10 +81,6 @@ export default defineValaxyConfig<PressTheme.Config>({
       {
         text: 'nav.faq',
         link: '/faq',
-      },
-      {
-        text: 'nav.pricing',
-        link: '/pricing',
       },
       {
         text: 'nav.community.title',

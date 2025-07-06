@@ -31,7 +31,7 @@ star: true
 2. After the administrator authorizes in this way, he can view the account of each member in the organization at will, which will leak his own files
    - It is recommended to apply for OneDrive E5 to get better
 
----
+:::
 
 ::: en
 ::: tip
@@ -51,7 +51,7 @@ Login to get our<Badge text="tenant ID" type="info" vertical="middle" />
 2. 这样的方式管理员授权后，可以随意查看组织中每个成员的账号，泄露了自己的文件
    - 建议自己申请 OneDrive E5 去好一些
 
----
+:::
 
 ::: zh-CN
 ::: tip
@@ -72,6 +72,7 @@ Login to get our<Badge text="tenant ID" type="info" vertical="middle" />
 ::: danger Read the precautions carefully
 Please read carefully the following **`serial numbers , view in sequence`** , if there is any error, please feedback in time
 :::
+::: en
 tabs#onedrive_app
 @tab 1
 
@@ -118,6 +119,7 @@ https://entra.microsoft.com/TokenAuthorize?admin_consent=True&tenant={Tenant ID}
 ::: danger 请仔细阅读注意事项
 请仔细阅读下面的 **`序号，依次查看`** ，如有错误可及时反馈
 :::
+::: zh-CN
 tabs#onedrive_app
 @tab 1
 
@@ -199,13 +201,14 @@ If you don't know how many users there are in your OneDrive organization, you ca
   because you didn't do it in step `4` <Badge text="grant xxx administrator consent" type="info" vertical="middle" /> caused by,Pay attention to the tips below the fourth step
 - Tips：**failed get objs: failed to list objs: Unable to retrieve user's mysite URL** Error
   The newly created `OneDrive` user account does not take effect in real time, Delay takes effect, wait for a few hours and try again [**Case**](https://github.com/alist-org/docs/discussions/189#discussioncomment-5928892)
-  :::
-  ::: zh-CN
+:::
+::: zh-CN
 - 提示：**Either scp or roles claim need to be present in the token** 错误
   是因为你没有在第`4`步的时候进行 <Badge text="代表xxxx授予管理员同意" type="info" vertical="middle" /> 导致的，注意查看第四步下面的提示
 - 提示：**failed get objs: failed to list objs: Unable to retrieve user's mysite URL** 错误
   新建的 `OneDrive`用户账号不是实时生效，会延时生效等待几小时后试试看 [**案例**](https://github.com/alist-org/docs/discussions/189#discussioncomment-5928892)
-  :::
+  
+:::
 
 ## **Add OneDrive_App accounts in batches** { lang="en" }
 

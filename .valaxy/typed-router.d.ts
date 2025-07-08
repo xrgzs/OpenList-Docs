@@ -42,6 +42,7 @@ declare module 'vue-router/auto-routes' {
     '/configuration/side': RouteRecordInfo<'/configuration/side', '/configuration/side', Record<never, never>, Record<never, never>>,
     '/configuration/site': RouteRecordInfo<'/configuration/site', '/configuration/site', Record<never, never>, Record<never, never>>,
     '/configuration/style': RouteRecordInfo<'/configuration/style', '/configuration/style', Record<never, never>, Record<never, never>>,
+    '/disclaimer': RouteRecordInfo<'/disclaimer', '/disclaimer', Record<never, never>, Record<never, never>>,
     '/faq/': RouteRecordInfo<'/faq/', '/faq', Record<never, never>, Record<never, never>>,
     '/faq/_example': RouteRecordInfo<'/faq/_example', '/faq/_example', Record<never, never>, Record<never, never>>,
     '/faq/error': RouteRecordInfo<'/faq/error', '/faq/error', Record<never, never>, Record<never, never>>,
@@ -112,7 +113,6 @@ declare module 'vue-router/auto-routes' {
     '/guide/drivers/teambition': RouteRecordInfo<'/guide/drivers/teambition', '/guide/drivers/teambition', Record<never, never>, Record<never, never>>,
     '/guide/drivers/terabox': RouteRecordInfo<'/guide/drivers/terabox', '/guide/drivers/terabox', Record<never, never>, Record<never, never>>,
     '/guide/drivers/thunder': RouteRecordInfo<'/guide/drivers/thunder', '/guide/drivers/thunder', Record<never, never>, Record<never, never>>,
-    '/guide/drivers/trainbit': RouteRecordInfo<'/guide/drivers/trainbit', '/guide/drivers/trainbit', Record<never, never>, Record<never, never>>,
     '/guide/drivers/uc': RouteRecordInfo<'/guide/drivers/uc', '/guide/drivers/uc', Record<never, never>, Record<never, never>>,
     '/guide/drivers/url_tree': RouteRecordInfo<'/guide/drivers/url_tree', '/guide/drivers/url_tree', Record<never, never>, Record<never, never>>,
     '/guide/drivers/uss': RouteRecordInfo<'/guide/drivers/uss', '/guide/drivers/uss', Record<never, never>, Record<never, never>>,
@@ -130,5 +130,7 @@ declare module 'vue-router/auto-routes' {
     '/guide/installation/source': RouteRecordInfo<'/guide/installation/source', '/guide/installation/source', Record<never, never>, Record<never, never>>,
     '/migration/': RouteRecordInfo<'/migration/', '/migration', Record<never, never>, Record<never, never>>,
     '/migration/alist-v3': RouteRecordInfo<'/migration/alist-v3', '/migration/alist-v3', Record<never, never>, Record<never, never>>,
+    '/privacy': RouteRecordInfo<'/privacy', '/privacy', Record<never, never>, Record<never, never>>,
+    '/terms': RouteRecordInfo<'/terms', '/terms', Record<never, never>, Record<never, never>>,
   }
 }

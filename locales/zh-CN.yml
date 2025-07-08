@@ -39,6 +39,9 @@ hero:
   actions:
     get-started: 快速上手
     view-github: 查看 GitHub
+    disclaimer: 免责声明
+    privacy: 隐私政策
+    terms: 使用条款
 
 # ! components/WorkInProgress.vue
 wip: 编写中，敬请期待

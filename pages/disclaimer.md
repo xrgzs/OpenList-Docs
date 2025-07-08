@@ -1,5 +1,5 @@
 ---
-title: Disclaimer
+title: DISCLAIMER
 title_zh-CN: 免责声明
 # This is the icon of the page
 nav: false
@@ -22,50 +22,15 @@ top: 500
 
 :::
 
-## Disclaimer Regarding Downstream Projects { lang="en" }
+## DISCLAIMER { lang="en" }
 
 ::: en
 
-1. The OpenList project is a fork of the upstream Alist project, maintained by the OpenListTeam and released under the GNU Affero General Public License v3.0 (AGPL 3.0). The project makes no warranties, express or implied, regarding its functionality, usability, or suitability for any purpose.
+1. THE OPENLIST PROJECT IS A FORK OF THE UPSTREAM ALIST PROJECT, MAINTAINED BY THE OPENLISTTEAM AND RELEASED UNDER THE GNU AFFERO GENERAL PUBLIC LICENSE V3.0 (AGPL 3.0). THE PROJECT MAKES NO WARRANTIES, EXPRESS OR IMPLIED, REGARDING ITS FUNCTIONALITY, USABILITY, OR SUITABILITY FOR ANY PURPOSE.
 
-2. Any forks, branches, or derivative projects based on OpenList are entirely independent, with their own creators, maintainers, and support channels. The OpenListTeam bears no responsibility for the behavior, content, or consequences arising from such downstream projects.
+2. ANY FORKS, BRANCHES, OR DERIVATIVE PROJECTS BASED ON OPENLIST ARE ENTIRELY INDEPENDENT, WITH THEIR OWN CREATORS, MAINTAINERS, AND SUPPORT CHANNELS. THE OPENLISTTEAM BEARS NO RESPONSIBILITY FOR THE BEHAVIOR, CONTENT, OR CONSEQUENCES ARISING FROM SUCH DOWNSTREAM PROJECTS.
 
-3. All downstream projects based on OpenList must strictly comply with the full terms of the AGPL 3.0 license, including but not limited to proper attribution, maintaining open-source status, and adopting the same license. The OpenListTeam reserves the right to require downstream projects to be distributed under the same license and to pursue any violations of the license terms.
-
-:::
-
-## 太长不看版 { lang="zh-CN" }
-
-::: zh-CN
-
-1. OpenList 基于上游 Alist 分叉开发，遵循 AGPL 3.0 协议开源，不对功能或可用性提供任何担保。
-
-2. 任何基于 OpenList 的分叉、分支或衍生项目均为独立项目，其行为和后果由各自负责人承担，OpenListTeam 概不负责。
-
-3. 所有下游项目必须严格遵守 AGPL 3.0 协议，OpenListTeam 保留要求其同协议分发及追究违规行为的权利。
+3. ALL DOWNSTREAM PROJECTS BASED ON OPENLIST MUST STRICTLY COMPLY WITH THE FULL TERMS OF THE AGPL 3.0 LICENSE, INCLUDING BUT NOT LIMITED TO PROPER ATTRIBUTION, MAINTAINING OPEN-SOURCE STATUS, AND ADOPTING THE SAME LICENSE. THE OPENLISTTEAM RESERVES THE RIGHT TO REQUIRE DOWNSTREAM PROJECTS TO BE DISTRIBUTED UNDER THE SAME LICENSE AND TO PURSUE ANY VIOLATIONS OF THE LICENSE TERMS.
 
 :::
 
-## Shorter version { lang="en" }
-
-::: en
-
-1. OpenList is developed based on a fork of the upstream Alist, open-source under the AGPL 3.0 license, and does not provide any warranty for functionality or usability.
-
-2. Any forks, branches, or derivative projects based on OpenList are independent projects, and their actions and consequences shall be borne by their respective responsible parties; the OpenListTeam shall not be held liable.
-
-3. All downstream projects must strictly comply with the AGPL 3.0 license. The OpenListTeam reserves the right to require them to distribute under the same license and to pursue legal action for violations.
-
-:::
-
-## 一句话版本 { lang="zh-CN" }
-
-::: zh-CN
-OpenList 遵循 AGPL 3.0 开源协议，对任何下游衍生项目概不负责，且保留追究其同样遵守该协议的权利。
-:::
-
-## Shortest version { lang="en" }
-
-::: en
-OpenList follows the AGPL 3.0 open-source license, assumes no responsibility for any downstream derivative projects, and reserves the right to pursue their compliance with the same license.
-:::

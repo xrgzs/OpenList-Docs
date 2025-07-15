@@ -15,7 +15,8 @@ title:
 - [Global settings](./configuration/global)
 - [Other settings](./configuration/other)
 - [Side settings](./configuration/side)
-  :::
+
+:::
 
 ::: zh-CN
 
@@ -26,4 +27,5 @@ title:
 - [全局设置](./configuration/global)
 - [其他设置](./configuration/other)
 - [侧边栏设置](./configuration/side)
-  :::
+
+:::

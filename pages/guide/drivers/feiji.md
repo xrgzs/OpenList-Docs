@@ -22,6 +22,17 @@ star: true
 
 **https://feijipan.com/**
 
+::: en
+::: danger
+Feiji Cloud imposes login restrictions on 3rd-party platforms. Attempting to access its service via OpenList may result in your account being banned. Please proceed with caution!
+:::
+
+::: zh-CN
+::: danger
+小飞机网盘对第三方平台有登录限制，尝试登录极易封号，请谨慎使用！
+:::
+
+
 ## Root folder ID { lang="en" }
 
 ## 根文件夹ID { lang="zh-CN" }

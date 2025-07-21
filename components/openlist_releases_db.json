@@ -5,7 +5,7 @@
     "cpu": "32-bit x86",
     "desc": "Lite version for 32-bit x86 Android devices",
     "desc_cn": "32位x86安卓设备的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-android-386-lite.tar.gz"
+    "lite": true
   },
   {
     "filename": "openlist-android-386.tar.gz",
@@ -13,7 +13,7 @@
     "cpu": "32-bit x86",
     "desc": "For 32-bit x86 Android devices",
     "desc_cn": "用于32位x86安卓设备",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-android-386.tar.gz"
+    "lite": false
   },
   {
     "filename": "openlist-android-amd64-lite.tar.gz",
@@ -21,7 +21,7 @@
     "cpu": "64-bit x86",
     "desc": "Lite version for 64-bit x86 Android devices",
     "desc_cn": "64位x86安卓设备的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-android-amd64-lite.tar.gz"
+    "lite": true
   },
   {
     "filename": "openlist-android-amd64.tar.gz",
@@ -29,7 +29,7 @@
     "cpu": "64-bit x86",
     "desc": "For 64-bit x86 Android devices",
     "desc_cn": "用于64位x86安卓设备",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-android-amd64.tar.gz"
+    "lite": false
   },
   {
     "filename": "openlist-android-arm-lite.tar.gz",
@@ -37,7 +37,7 @@
     "cpu": "32-bit ARM",
     "desc": "Lite version for 32-bit ARM Android devices",
     "desc_cn": "32位ARM安卓设备的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-android-arm-lite.tar.gz"
+    "lite": true
   },
   {
     "filename": "openlist-android-arm.tar.gz",
@@ -45,7 +45,7 @@
     "cpu": "32-bit ARM",
     "desc": "For 32-bit ARM Android devices",
     "desc_cn": "用于32位ARM安卓设备",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-android-arm.tar.gz"
+    "lite": false
   },
   {
     "filename": "openlist-android-arm64-lite.tar.gz",
@@ -53,7 +53,7 @@
     "cpu": "64-bit ARM",
     "desc": "Lite version for 64-bit ARM Android devices",
     "desc_cn": "64位ARM安卓设备的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-android-arm64-lite.tar.gz"
+    "lite": true
   },
   {
     "filename": "openlist-android-arm64.tar.gz",
@@ -61,7 +61,7 @@
     "cpu": "64-bit ARM",
     "desc": "For 64-bit ARM Android devices",
     "desc_cn": "用于64位ARM安卓设备",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-android-arm64.tar.gz"
+    "lite": false
   },
   {
     "filename": "openlist-darwin-amd64-lite.tar.gz",
@@ -69,7 +69,7 @@
     "cpu": "64-bit Intel",
     "desc": "Lite version for Intel-based Macs",
     "desc_cn": "Intel芯片Mac的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-darwin-amd64-lite.tar.gz"
+    "lite": true
   },
   {
     "filename": "openlist-darwin-amd64.tar.gz",
@@ -77,7 +77,7 @@
     "cpu": "64-bit Intel",
     "desc": "For Intel-based Macs",
     "desc_cn": "用于Intel芯片Mac",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-darwin-amd64.tar.gz"
+    "lite": false
   },
   {
     "filename": "openlist-darwin-arm64-lite.tar.gz",
@@ -85,7 +85,7 @@
     "cpu": "64-bit Apple Silicon",
     "desc": "Lite version for Apple Silicon Macs",
     "desc_cn": "Apple Silicon芯片Mac的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-darwin-arm64-lite.tar.gz"
+    "lite": true
   },
   {
     "filename": "openlist-darwin-arm64.tar.gz",
@@ -93,7 +93,7 @@
     "cpu": "64-bit Apple Silicon",
     "desc": "For Apple Silicon Macs",
     "desc_cn": "用于Apple Silicon芯片Mac",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-darwin-arm64.tar.gz"
+    "lite": false
   },
   {
     "filename": "openlist-freebsd-amd64-lite.tar.gz",
@@ -101,7 +101,7 @@
     "cpu": "64-bit x86",
     "desc": "Lite version for 64-bit x86 FreeBSD systems",
     "desc_cn": "64位x86 FreeBSD系统的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-freebsd-amd64-lite.tar.gz"
+    "lite": true
   },
   {
     "filename": "openlist-freebsd-amd64.tar.gz",
@@ -109,7 +109,7 @@
     "cpu": "64-bit x86",
     "desc": "For 64-bit x86 FreeBSD systems",
     "desc_cn": "用于64位x86 FreeBSD系统",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-freebsd-amd64.tar.gz"
+    "lite": false
   },
   {
     "filename": "openlist-freebsd-arm64-lite.tar.gz",
@@ -117,7 +117,7 @@
     "cpu": "64-bit ARM",
     "desc": "Lite version for 64-bit ARM FreeBSD systems",
     "desc_cn": "64位ARM FreeBSD系统的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-freebsd-arm64-lite.tar.gz"
+    "lite": true
   },
   {
     "filename": "openlist-freebsd-arm64.tar.gz",
@@ -125,7 +125,7 @@
     "cpu": "64-bit ARM",
     "desc": "For 64-bit ARM FreeBSD systems",
     "desc_cn": "用于64位ARM FreeBSD系统",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-freebsd-arm64.tar.gz"
+    "lite": false
   },
   {
     "filename": "openlist-freebsd-i386-lite.tar.gz",
@@ -133,7 +133,7 @@
     "cpu": "32-bit x86",
     "desc": "Lite version for 32-bit x86 FreeBSD systems",
     "desc_cn": "32位x86 FreeBSD系统的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-freebsd-i386-lite.tar.gz"
+    "lite": true
   },
   {
     "filename": "openlist-freebsd-i386.tar.gz",
@@ -141,7 +141,7 @@
     "cpu": "32-bit x86",
     "desc": "For 32-bit x86 FreeBSD systems",
     "desc_cn": "用于32位x86 FreeBSD系统",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-freebsd-i386.tar.gz"
+    "lite": false
   },
   {
     "filename": "openlist-linux-386-lite.tar.gz",
@@ -149,7 +149,7 @@
     "cpu": "32-bit x86",
     "desc": "Lite version for 32-bit x86 Linux systems",
     "desc_cn": "32位x86 Linux系统的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-386-lite.tar.gz"
+    "lite": true
   },
   {
     "filename": "openlist-linux-386.tar.gz",
@@ -157,7 +157,7 @@
     "cpu": "32-bit x86",
     "desc": "For 32-bit x86 Linux systems",
     "desc_cn": "用于32位x86 Linux系统",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-386.tar.gz"
+    "lite": false
   },
   {
     "filename": "openlist-linux-amd64-lite.tar.gz",
@@ -165,7 +165,7 @@
     "cpu": "64-bit x86",
     "desc": "Lite version for 64-bit x86 Linux systems",
     "desc_cn": "64位x86 Linux系统的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-amd64-lite.tar.gz"
+    "lite": true
   },
   {
     "filename": "openlist-linux-amd64.tar.gz",
@@ -173,7 +173,7 @@
     "cpu": "64-bit x86",
     "desc": "For 64-bit x86 Linux systems",
     "desc_cn": "用于64位x86 Linux系统",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-amd64.tar.gz"
+    "lite": false
   },
   {
     "filename": "openlist-linux-arm-5-lite.tar.gz",
@@ -181,7 +181,7 @@
     "cpu": "32-bit ARM v5",
     "desc": "Lite version for ARM v5 Linux systems",
     "desc_cn": "ARM v5 Linux系统的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-arm-5-lite.tar.gz"
+    "lite": true
   },
   {
     "filename": "openlist-linux-arm-5.tar.gz",
@@ -189,7 +189,7 @@
     "cpu": "32-bit ARM v5",
     "desc": "For ARM v5 Linux systems",
     "desc_cn": "用于ARM v5 Linux系统",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-arm-5.tar.gz"
+    "lite": false
   },
   {
     "filename": "openlist-linux-arm-6-lite.tar.gz",
@@ -197,7 +197,7 @@
     "cpu": "32-bit ARM v6",
     "desc": "Lite version for ARM v6 Linux systems",
     "desc_cn": "ARM v6 Linux系统的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-arm-6-lite.tar.gz"
+    "lite": true
   },
   {
     "filename": "openlist-linux-arm-6.tar.gz",
@@ -205,7 +205,7 @@
     "cpu": "32-bit ARM v6",
     "desc": "For ARM v6 Linux systems",
     "desc_cn": "用于ARM v6 Linux系统",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-arm-6.tar.gz"
+    "lite": false
   },
   {
     "filename": "openlist-linux-arm-7-lite.tar.gz",
@@ -213,7 +213,7 @@
     "cpu": "32-bit ARM v7",
     "desc": "Lite version for ARM v7 Linux systems",
     "desc_cn": "ARM v7 Linux系统的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-arm-7-lite.tar.gz"
+    "lite": true
   },
   {
     "filename": "openlist-linux-arm-7.tar.gz",
@@ -221,7 +221,7 @@
     "cpu": "32-bit ARM v7",
     "desc": "For ARM v7 Linux systems",
     "desc_cn": "用于ARM v7 Linux系统",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-arm-7.tar.gz"
+    "lite": false
   },
   {
     "filename": "openlist-linux-arm64-lite.tar.gz",
@@ -229,7 +229,7 @@
     "cpu": "64-bit ARM",
     "desc": "Lite version for 64-bit ARM Linux systems",
     "desc_cn": "64位ARM Linux系统的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-arm64-lite.tar.gz"
+    "lite": true
   },
   {
     "filename": "openlist-linux-arm64.tar.gz",
@@ -237,7 +237,7 @@
     "cpu": "64-bit ARM",
     "desc": "For 64-bit ARM Linux systems",
     "desc_cn": "用于64位ARM Linux系统",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-arm64.tar.gz"
+    "lite": false
   },
   {
     "filename": "openlist-linux-mips-lite.tar.gz",
@@ -245,7 +245,7 @@
     "cpu": "MIPS",
     "desc": "Lite version for MIPS Linux systems",
     "desc_cn": "MIPS Linux系统的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-mips-lite.tar.gz"
+    "lite": true
   },
   {
     "filename": "openlist-linux-mips.tar.gz",
@@ -253,7 +253,7 @@
     "cpu": "MIPS",
     "desc": "For MIPS Linux systems",
     "desc_cn": "用于MIPS Linux系统",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-mips.tar.gz"
+    "lite": false
   },
   {
     "filename": "openlist-linux-mips64-lite.tar.gz",
@@ -261,7 +261,7 @@
     "cpu": "MIPS64",
     "desc": "Lite version for MIPS64 Linux systems",
     "desc_cn": "MIPS64 Linux系统的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-mips64-lite.tar.gz"
+    "lite": true
   },
   {
     "filename": "openlist-linux-mips64.tar.gz",
@@ -269,7 +269,7 @@
     "cpu": "MIPS64",
     "desc": "For MIPS64 Linux systems",
     "desc_cn": "用于MIPS64 Linux系统",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-mips64.tar.gz"
+    "lite": false
   },
   {
     "filename": "openlist-linux-mips64le-lite.tar.gz",
@@ -277,7 +277,7 @@
     "cpu": "MIPS64LE",
     "desc": "Lite version for little-endian MIPS64 Linux systems",
     "desc_cn": "小端MIPS64 Linux系统的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-mips64le-lite.tar.gz"
+    "lite": true
   },
   {
     "filename": "openlist-linux-mips64le.tar.gz",
@@ -285,7 +285,7 @@
     "cpu": "MIPS64LE",
     "desc": "For little-endian MIPS64 Linux systems",
     "desc_cn": "用于小端MIPS64 Linux系统",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-mips64le.tar.gz"
+    "lite": false
   },
   {
     "filename": "openlist-linux-mipsle-lite.tar.gz",
@@ -293,7 +293,7 @@
     "cpu": "MIPSLE",
     "desc": "Lite version for little-endian MIPS Linux systems",
     "desc_cn": "小端MIPS Linux系统的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-mipsle-lite.tar.gz"
+    "lite": true
   },
   {
     "filename": "openlist-linux-mipsle.tar.gz",
@@ -301,7 +301,7 @@
     "cpu": "MIPSLE",
     "desc": "For little-endian MIPS Linux systems",
     "desc_cn": "用于小端MIPS Linux系统",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-mipsle.tar.gz"
+    "lite": false
   },
   {
     "filename": "openlist-linux-musl-amd64-lite.tar.gz",
@@ -309,7 +309,7 @@
     "cpu": "64-bit x86",
     "desc": "Lite version for 64-bit x86 Linux systems with musl libc",
     "desc_cn": "64位x86 musl libc Linux系统的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-musl-amd64-lite.tar.gz"
+    "lite": true
   },
   {
     "filename": "openlist-linux-musl-amd64.tar.gz",
@@ -317,7 +317,7 @@
     "cpu": "64-bit x86",
     "desc": "For 64-bit x86 Linux systems with musl libc",
     "desc_cn": "用于64位x86 musl libc Linux系统",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-musl-amd64.tar.gz"
+    "lite": false
   },
   {
     "filename": "openlist-linux-musl-arm64-lite.tar.gz",
@@ -325,7 +325,7 @@
     "cpu": "64-bit ARM",
     "desc": "Lite version for 64-bit ARM Linux systems with musl libc",
     "desc_cn": "64位ARM musl libc Linux系统的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-musl-arm64-lite.tar.gz"
+    "lite": true
   },
   {
     "filename": "openlist-linux-musl-arm64.tar.gz",
@@ -333,7 +333,7 @@
     "cpu": "64-bit ARM",
     "desc": "For 64-bit ARM Linux systems with musl libc",
     "desc_cn": "用于64位ARM musl libc Linux系统",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-musl-arm64.tar.gz"
+    "lite": false
   },
   {
     "filename": "openlist-linux-musl-loong64-lite.tar.gz",
@@ -341,7 +341,7 @@
     "cpu": "LoongArch 64",
     "desc": "Lite version for LoongArch 64 Linux systems with musl libc and ABI2.0",
     "desc_cn": "龙芯LoongArch 64 musl libc Linux ABI2.0 系统的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-musl-loong64-lite.tar.gz"
+    "lite": true
   },
   {
     "filename": "openlist-linux-musl-loong64.tar.gz",
@@ -349,7 +349,7 @@
     "cpu": "LoongArch 64",
     "desc": "For LoongArch 64 Linux systems with musl libc and ABI2.0",
     "desc_cn": "用于龙芯LoongArch 64 musl libc Linux ABI2.0 系统",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-musl-loong64.tar.gz"
+    "lite": false
   },
   {
     "filename": "openlist-linux-musl-mips-lite.tar.gz",
@@ -357,7 +357,7 @@
     "cpu": "MIPS",
     "desc": "Lite version for MIPS Linux systems with musl libc",
     "desc_cn": "MIPS musl libc Linux系统的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-musl-mips-lite.tar.gz"
+    "lite": true
   },
   {
     "filename": "openlist-linux-musl-mips.tar.gz",
@@ -365,7 +365,7 @@
     "cpu": "MIPS",
     "desc": "For MIPS Linux systems with musl libc",
     "desc_cn": "用于MIPS musl libc Linux系统",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-musl-mips.tar.gz"
+    "lite": false
   },
   {
     "filename": "openlist-linux-musl-mips64-lite.tar.gz",
@@ -373,7 +373,7 @@
     "cpu": "MIPS64",
     "desc": "Lite version for MIPS64 Linux systems with musl libc",
     "desc_cn": "MIPS64 musl libc Linux系统的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-musl-mips64-lite.tar.gz"
+    "lite": true
   },
   {
     "filename": "openlist-linux-musl-mips64.tar.gz",
@@ -381,7 +381,7 @@
     "cpu": "MIPS64",
     "desc": "For MIPS64 Linux systems with musl libc",
     "desc_cn": "用于MIPS64 musl libc Linux系统",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-musl-mips64.tar.gz"
+    "lite": false
   },
   {
     "filename": "openlist-linux-musl-mips64le-lite.tar.gz",
@@ -389,7 +389,7 @@
     "cpu": "MIPS64LE",
     "desc": "Lite version for little-endian MIPS64 Linux systems with musl libc",
     "desc_cn": "小端MIPS64 musl libc Linux系统的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-musl-mips64le-lite.tar.gz"
+    "lite": true
   },
   {
     "filename": "openlist-linux-musl-mips64le.tar.gz",
@@ -397,7 +397,7 @@
     "cpu": "MIPS64LE",
     "desc": "For little-endian MIPS64 Linux systems with musl libc",
     "desc_cn": "用于小端MIPS64 musl libc Linux系统",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-musl-mips64le.tar.gz"
+    "lite": false
   },
   {
     "filename": "openlist-linux-musl-mipsle-lite.tar.gz",
@@ -405,7 +405,7 @@
     "cpu": "MIPSLE",
     "desc": "Lite version for little-endian MIPS Linux systems with musl libc",
     "desc_cn": "小端MIPS musl libc Linux系统的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-musl-mipsle-lite.tar.gz"
+    "lite": true
   },
   {
     "filename": "openlist-linux-musl-mipsle.tar.gz",
@@ -413,7 +413,7 @@
     "cpu": "MIPSLE",
     "desc": "For little-endian MIPS Linux systems with musl libc",
     "desc_cn": "用于小端MIPS musl libc Linux系统",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-musl-mipsle.tar.gz"
+    "lite": false
   },
   {
     "filename": "openlist-linux-musl-ppc64le-lite.tar.gz",
@@ -421,7 +421,7 @@
     "cpu": "64-bit PowerPC LE",
     "desc": "Lite version for little-endian PowerPC Linux systems with musl libc",
     "desc_cn": "小端PowerPC musl libc Linux系统的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-musl-ppc64le-lite.tar.gz"
+    "lite": true
   },
   {
     "filename": "openlist-linux-musl-ppc64le.tar.gz",
@@ -429,7 +429,7 @@
     "cpu": "64-bit PowerPC LE",
     "desc": "For little-endian PowerPC Linux systems with musl libc",
     "desc_cn": "用于小端PowerPC musl libc Linux系统",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-musl-ppc64le.tar.gz"
+    "lite": false
   },
   {
     "filename": "openlist-linux-musl-s390x-lite.tar.gz",
@@ -437,7 +437,7 @@
     "cpu": "IBM z/Architecture",
     "desc": "Lite version for IBM z/Architecture Linux systems with musl libc",
     "desc_cn": "IBM z/Architecture musl libc Linux系统的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-musl-s390x-lite.tar.gz"
+    "lite": true
   },
   {
     "filename": "openlist-linux-musl-s390x.tar.gz",
@@ -445,7 +445,7 @@
     "cpu": "IBM z/Architecture",
     "desc": "For IBM z/Architecture Linux systems with musl libc",
     "desc_cn": "用于IBM z/Architecture musl libc Linux系统",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-musl-s390x.tar.gz"
+    "lite": false
   },
   {
     "filename": "openlist-linux-musleabi-arm-lite.tar.gz",
@@ -453,7 +453,7 @@
     "cpu": "32-bit ARM EABI",
     "desc": "Lite version for 32-bit ARM EABI Linux systems with musl libc",
     "desc_cn": "32位ARM EABI musl libc Linux系统的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-musleabi-arm-lite.tar.gz"
+    "lite": true
   },
   {
     "filename": "openlist-linux-musleabi-arm.tar.gz",
@@ -461,7 +461,7 @@
     "cpu": "32-bit ARM EABI",
     "desc": "For 32-bit ARM EABI Linux systems with musl libc",
     "desc_cn": "用于32位ARM EABI musl libc Linux系统",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-musleabi-arm.tar.gz"
+    "lite": false
   },
   {
     "filename": "openlist-linux-musleabi-armel-lite.tar.gz",
@@ -469,7 +469,7 @@
     "cpu": "32-bit ARM EABI LE",
     "desc": "Lite version for little-endian 32-bit ARM EABI Linux systems with musl libc",
     "desc_cn": "小端32位ARM EABI musl libc Linux系统的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-musleabi-armel-lite.tar.gz"
+    "lite": true
   },
   {
     "filename": "openlist-linux-musleabi-armel.tar.gz",
@@ -477,7 +477,7 @@
     "cpu": "32-bit ARM EABI LE",
     "desc": "For little-endian 32-bit ARM EABI Linux systems with musl libc",
     "desc_cn": "用于小端32位ARM EABI musl libc Linux系统",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-musleabi-armel.tar.gz"
+    "lite": false
   },
   {
     "filename": "openlist-linux-musleabi-armv5l-lite.tar.gz",
@@ -485,7 +485,7 @@
     "cpu": "32-bit ARM v5 EABI",
     "desc": "Lite version for ARM v5 EABI Linux systems with musl libc",
     "desc_cn": "ARM v5 EABI musl libc Linux系统的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-musleabi-armv5l-lite.tar.gz"
+    "lite": true
   },
   {
     "filename": "openlist-linux-musleabi-armv5l.tar.gz",
@@ -493,7 +493,7 @@
     "cpu": "32-bit ARM v5 EABI",
     "desc": "For ARM v5 EABI Linux systems with musl libc",
     "desc_cn": "用于ARM v5 EABI musl libc Linux系统",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-musleabi-armv5l.tar.gz"
+    "lite": false
   },
   {
     "filename": "openlist-linux-musleabi-armv6-lite.tar.gz",
@@ -501,7 +501,7 @@
     "cpu": "32-bit ARM v6 EABI",
     "desc": "Lite version for ARM v6 EABI Linux systems with musl libc",
     "desc_cn": "ARM v6 EABI musl libc Linux系统的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-musleabi-armv6-lite.tar.gz"
+    "lite": true
   },
   {
     "filename": "openlist-linux-musleabi-armv6.tar.gz",
@@ -509,7 +509,7 @@
     "cpu": "32-bit ARM v6 EABI",
     "desc": "For ARM v6 EABI Linux systems with musl libc",
     "desc_cn": "用于ARM v6 EABI musl libc Linux系统",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-musleabi-armv6.tar.gz"
+    "lite": false
   },
   {
     "filename": "openlist-linux-musleabi-armv7m-lite.tar.gz",
@@ -517,7 +517,7 @@
     "cpu": "32-bit ARM v7 EABI",
     "desc": "Lite version for ARM v7 EABI Linux systems with musl libc",
     "desc_cn": "ARM v7 EABI musl libc Linux系统的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-musleabi-armv7m-lite.tar.gz"
+    "lite": true
   },
   {
     "filename": "openlist-linux-musleabi-armv7m.tar.gz",
@@ -525,7 +525,7 @@
     "cpu": "32-bit ARM v7 EABI",
     "desc": "For ARM v7 EABI Linux systems with musl libc",
     "desc_cn": "用于ARM v7 EABI musl libc Linux系统",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-musleabi-armv7m.tar.gz"
+    "lite": false
   },
   {
     "filename": "openlist-linux-musleabihf-arm-lite.tar.gz",
@@ -533,7 +533,7 @@
     "cpu": "32-bit ARM EABI HF",
     "desc": "Lite version for 32-bit ARM hard-float EABI Linux systems with musl libc",
     "desc_cn": "32位ARM硬浮点EABI musl libc Linux系统的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-musleabihf-arm-lite.tar.gz"
+    "lite": true
   },
   {
     "filename": "openlist-linux-musleabihf-arm.tar.gz",
@@ -541,7 +541,7 @@
     "cpu": "32-bit ARM EABI HF",
     "desc": "For 32-bit ARM hard-float EABI Linux systems with musl libc",
     "desc_cn": "用于32位ARM硬浮点EABI musl libc Linux系统",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-musleabihf-arm.tar.gz"
+    "lite": false
   },
   {
     "filename": "openlist-linux-musleabihf-armel-lite.tar.gz",
@@ -549,7 +549,7 @@
     "cpu": "32-bit ARM EABI HF LE",
     "desc": "Lite version for little-endian 32-bit ARM hard-float EABI Linux systems with musl libc",
     "desc_cn": "小端32位ARM硬浮点EABI musl libc Linux系统的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-musleabihf-armel-lite.tar.gz"
+    "lite": true
   },
   {
     "filename": "openlist-linux-musleabihf-armel.tar.gz",
@@ -557,7 +557,7 @@
     "cpu": "32-bit ARM EABI HF LE",
     "desc": "For little-endian 32-bit ARM hard-float EABI Linux systems with musl libc",
     "desc_cn": "用于小端32位ARM硬浮点EABI musl libc Linux系统",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-musleabihf-armel.tar.gz"
+    "lite": false
   },
   {
     "filename": "openlist-linux-musleabihf-armv5l-lite.tar.gz",
@@ -565,7 +565,7 @@
     "cpu": "32-bit ARM v5 EABI HF",
     "desc": "Lite version for ARM v5 hard-float EABI Linux systems with musl libc",
     "desc_cn": "ARM v5硬浮点EABI musl libc Linux系统的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-musleabihf-armv5l-lite.tar.gz"
+    "lite": true
   },
   {
     "filename": "openlist-linux-musleabihf-armv5l.tar.gz",
@@ -573,7 +573,7 @@
     "cpu": "32-bit ARM v5 EABI HF",
     "desc": "For ARM v5 hard-float EABI Linux systems with musl libc",
     "desc_cn": "用于ARM v5硬浮点EABI musl libc Linux系统",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-musleabihf-armv5l.tar.gz"
+    "lite": false
   },
   {
     "filename": "openlist-linux-musleabihf-armv6-lite.tar.gz",
@@ -581,7 +581,7 @@
     "cpu": "32-bit ARM v6 EABI HF",
     "desc": "Lite version for ARM v6 hard-float EABI Linux systems with musl libc",
     "desc_cn": "ARM v6硬浮点EABI musl libc Linux系统的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-musleabihf-armv6-lite.tar.gz"
+    "lite": true
   },
   {
     "filename": "openlist-linux-musleabihf-armv6.tar.gz",
@@ -589,7 +589,7 @@
     "cpu": "32-bit ARM v6 EABI HF",
     "desc": "For ARM v6 hard-float EABI Linux systems with musl libc",
     "desc_cn": "用于ARM v6硬浮点EABI musl libc Linux系统",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-musleabihf-armv6.tar.gz"
+    "lite": false
   },
   {
     "filename": "openlist-linux-musleabihf-armv7l-lite.tar.gz",
@@ -597,7 +597,7 @@
     "cpu": "32-bit ARM v7 EABI HF",
     "desc": "Lite version for ARM v7 hard-float EABI Linux systems with musl libc",
     "desc_cn": "ARM v7硬浮点EABI musl libc Linux系统的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-musleabihf-armv7l-lite.tar.gz"
+    "lite": true
   },
   {
     "filename": "openlist-linux-musleabihf-armv7l.tar.gz",
@@ -605,7 +605,7 @@
     "cpu": "32-bit ARM v7 EABI HF",
     "desc": "For ARM v7 hard-float EABI Linux systems with musl libc",
     "desc_cn": "用于ARM v7硬浮点EABI musl libc Linux系统",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-musleabihf-armv7l.tar.gz"
+    "lite": false
   },
   {
     "filename": "openlist-linux-musleabihf-armv7r-lite.tar.gz",
@@ -613,7 +613,7 @@
     "cpu": "32-bit ARM v7 EABI HF",
     "desc": "Lite version for ARM v7 hard-float EABI Linux systems with musl libc",
     "desc_cn": "ARM v7硬浮点EABI musl libc Linux系统的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-musleabihf-armv7r-lite.tar.gz"
+    "lite": true
   },
   {
     "filename": "openlist-linux-musleabihf-armv7r.tar.gz",
@@ -621,7 +621,7 @@
     "cpu": "32-bit ARM v7 EABI HF",
     "desc": "For ARM v7 hard-float EABI Linux systems with musl libc",
     "desc_cn": "用于ARM v7硬浮点EABI musl libc Linux系统",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-musleabihf-armv7r.tar.gz"
+    "lite": false
   },
   {
     "filename": "openlist-linux-ppc64le-lite.tar.gz",
@@ -629,7 +629,7 @@
     "cpu": "64-bit PowerPC LE",
     "desc": "Lite version for little-endian PowerPC Linux systems",
     "desc_cn": "小端PowerPC Linux系统的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-ppc64le-lite.tar.gz"
+    "lite": true
   },
   {
     "filename": "openlist-linux-ppc64le.tar.gz",
@@ -637,7 +637,7 @@
     "cpu": "64-bit PowerPC LE",
     "desc": "For little-endian PowerPC Linux systems",
     "desc_cn": "用于小端PowerPC Linux系统",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-ppc64le.tar.gz"
+    "lite": false
   },
   {
     "filename": "openlist-linux-riscv64-lite.tar.gz",
@@ -645,7 +645,7 @@
     "cpu": "64-bit RISC-V",
     "desc": "Lite version for 64-bit RISC-V Linux systems",
     "desc_cn": "64位RISC-V Linux系统的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-riscv64-lite.tar.gz"
+    "lite": true
   },
   {
     "filename": "openlist-linux-riscv64.tar.gz",
@@ -653,7 +653,7 @@
     "cpu": "64-bit RISC-V",
     "desc": "For 64-bit RISC-V Linux systems",
     "desc_cn": "用于64位RISC-V Linux系统",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-riscv64.tar.gz"
+    "lite": false
   },
   {
     "filename": "openlist-linux-s390x-lite.tar.gz",
@@ -661,7 +661,7 @@
     "cpu": "IBM z/Architecture",
     "desc": "Lite version for IBM z/Architecture Linux systems",
     "desc_cn": "IBM z/Architecture Linux系统的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-s390x-lite.tar.gz"
+    "lite": true
   },
   {
     "filename": "openlist-linux-s390x.tar.gz",
@@ -669,7 +669,7 @@
     "cpu": "IBM z/Architecture",
     "desc": "For IBM z/Architecture Linux systems",
     "desc_cn": "用于IBM z/Architecture Linux系统",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-linux-s390x.tar.gz"
+    "lite": false
   },
   {
     "filename": "openlist-windows-386-lite.zip",
@@ -677,7 +677,7 @@
     "cpu": "32-bit x86",
     "desc": "Lite version for 32-bit x86 Windows systems",
     "desc_cn": "32位x86 Windows系统的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-windows-386-lite.zip"
+    "lite": true
   },
   {
     "filename": "openlist-windows-386.zip",
@@ -685,7 +685,7 @@
     "cpu": "32-bit x86",
     "desc": "For 32-bit x86 Windows systems",
     "desc_cn": "用于32位x86 Windows系统",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-windows-386.zip"
+    "lite": false
   },
   {
     "filename": "openlist-windows-amd64-lite.zip",
@@ -693,23 +693,7 @@
     "cpu": "64-bit x86",
     "desc": "Lite version for 64-bit x86 Windows systems",
     "desc_cn": "64位x86 Windows系统的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-windows-amd64-lite.zip"
-  },
-  {
-    "filename": "openlist-windows-amd64-upx-lite.zip",
-    "os": "Windows",
-    "cpu": "64-bit x86",
-    "desc": "UPX-compressed lite version for 64-bit x86 Windows",
-    "desc_cn": "UPX压缩的64位x86 Windows精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-windows-amd64-upx-lite.zip"
-  },
-  {
-    "filename": "openlist-windows-amd64-upx.zip",
-    "os": "Windows",
-    "cpu": "64-bit x86",
-    "desc": "UPX-compressed version for 64-bit x86 Windows",
-    "desc_cn": "UPX压缩的64位x86 Windows版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-windows-amd64-upx.zip"
+    "lite": true
   },
   {
     "filename": "openlist-windows-amd64.zip",
@@ -717,7 +701,7 @@
     "cpu": "64-bit x86",
     "desc": "For 64-bit x86 Windows systems",
     "desc_cn": "用于64位x86 Windows系统",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-windows-amd64.zip"
+    "lite": false
   },
   {
     "filename": "openlist-windows-arm64-lite.zip",
@@ -725,7 +709,7 @@
     "cpu": "64-bit ARM",
     "desc": "Lite version for 64-bit ARM Windows systems",
     "desc_cn": "64位ARM Windows系统的精简版",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-windows-arm64-lite.zip"
+    "lite": true
   },
   {
     "filename": "openlist-windows-arm64.zip",
@@ -733,6 +717,6 @@
     "cpu": "64-bit ARM",
     "desc": "For 64-bit ARM Windows systems",
     "desc_cn": "用于64位ARM Windows系统",
-    "link": "https://github.com/OpenListTeam/OpenList/releases/latest/download/openlist-windows-arm64.zip"
+    "lite": false
   }
 ]

@@ -119,12 +119,12 @@ OpenList 是一个支持多种存储的文件列表程序🗂️，是一个有�
 
 ::: en
 
-- [查看更多 🔍](/ecosystem)
+- [See more 🔍](/ecosystem)
 
 :::
 
 ::: zh-CN
 
-- [See more 🔍](/ecosystem)
+- [查看更多 🔍](/ecosystem)
 
 :::

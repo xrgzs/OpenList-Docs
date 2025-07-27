@@ -24,11 +24,11 @@
     "@iconify-json/logos": "^1.2.5",
     "@iconify-json/ri": "^1.2.5",
     "@iconify-json/vscode-icons": "^1.2.23",
-    "valaxy": "0.25.9",
+    "valaxy": "0.25.11",
     "valaxy-addon-algolia": "0.2.0",
     "valaxy-addon-components": "0.1.0",
     "valaxy-addon-git-log": "0.3.2",
-    "valaxy-theme-press": "0.25.9",
+    "valaxy-theme-press": "0.25.11",
     "vitepress-plugin-group-icons": "^1.6.1"
   },
   "devDependencies": {

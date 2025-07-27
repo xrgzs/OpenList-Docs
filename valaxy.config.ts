@@ -31,7 +31,7 @@ export default defineValaxyConfig<PressTheme.Config>({
 
     search: {
       enable: true,
-      type: 'algolia',
+      type: 'fuse',
     },
 
     encrypt: {
@@ -54,9 +54,9 @@ export default defineValaxyConfig<PressTheme.Config>({
   addons: [
     // Cannot uncomment this, or build error
     addonAlgolia({
-      appId: 'I80ZVXR7H9',
-      apiKey: '2a3fe6e1f95a3c8ca60fee55e44c00a1',
-      indexName: 'Document Crawler CN',
+      appId: '',
+      apiKey: '',
+      indexName: '',
     }),
     addonComponents(),
     addonGitLog({

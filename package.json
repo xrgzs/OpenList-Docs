@@ -9,6 +9,7 @@
     "build:spa": "valaxy build",
     "build:ssg": "NODE_OPTIONS='--max-old-space-size=8192' valaxy build --ssg",
     "dev": "valaxy",
+    "fuse": "valaxy fuse",
     "rss": "valaxy rss",
     "serve": "vite preview",
     "vitepress:dev": "vitepress dev",

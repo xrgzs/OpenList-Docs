@@ -34,6 +34,12 @@ export default defineValaxyConfig<PressTheme.Config>({
       type: 'fuse',
     },
 
+    fuse: {
+      options: {
+        keys: ['title', 'tags', 'categories', 'excerpt', 'content'],
+      },
+    },
+
     encrypt: {
       enable: false,
     },
